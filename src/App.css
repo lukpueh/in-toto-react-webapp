@@ -19,7 +19,7 @@
 
 .RotoLogo {
   height: 100px;
-  animation: App-logo-spin infinite 20s linear;
+  animation: App-logo-spin infinite 1s linear;
   padding: 30px;
 }
 
