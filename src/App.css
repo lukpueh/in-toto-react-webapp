@@ -9,18 +9,26 @@
   height: 160px;
 }
 
+.link{
+  border-radius: 100px;
+  border: 7px solid #191919;
+  display: inline-block;
+  width: 220px;
+  margin-right: -25px;
+}
+
 .RotoLogo {
-  height: 120px;
+  height: 100px;
   animation: App-logo-spin infinite 20s linear;
   padding: 30px;
 }
 
 body { 
-  background-color: #404040;
+  background-color: #191919;
+  color: #191919;
 }
 
 .Background {
-  height: 130%;
   scroll: hidden;
   width: 100%;
 }
@@ -52,6 +60,7 @@ body {
 
 .Benefits li:before {
   color: green;
+  font-size: 24pt;
   content: "\2713";
 }
 
@@ -69,7 +78,8 @@ body {
 }
 
 .seeMore {
-  background-color: #a0a0a0;
+  background-color: #40749c;
+  color: #f0f0f0;
   padding: 30px;
 }
 

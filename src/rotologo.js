@@ -2,7 +2,9 @@ import React from 'react'
 
 function RotoLogo(props) {
 
-    return <img src={props.source + ".png"}  className="RotoLogo" alt={props.source.split(".")[0]}/>
+    return (<div className="link">
+            <img src={props.source + ".png"}  className="RotoLogo" alt={props.source.split(".")[0]}/>
+            </div>);
 }
 
 function LogoTable(props) {

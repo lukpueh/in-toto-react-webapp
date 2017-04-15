@@ -5,14 +5,12 @@ import './App.css';
 
 class App extends Component {
   render() {
-    // TODO: Add the diagram with the arrows for the logo (debian, react, apache , docker) 
-    // TODO: animate something somehow (probably a pseudo rotating lock or something)
     return (
       <div className="Background"> 
         <div className="App">
           <div className="App-header">
             <Logo source="/logo.png"  />
-            <LogoTable logos={["debian","react", "apache" ,"docker"]} />
+            <LogoTable logos={["react", "eslint", "apache" ,"docker"]} />
             <h2>This webapp is secured using with in-toto</h2>
           </div>
           <div className="Benefits">
@@ -21,17 +19,18 @@ class App extends Component {
 
             <ul> 
 
-              <li> Only the right people wrote the code, and followed the right coding guidelines
+              <li> Only the right people coded this webapp, and
+              followed the right coding guidelines
               </li>
 
-              <li> No intruder tampered with the code before it was added to the debian installation
+              <li> No intruder tampered with the code before it was added to the debian image
               </li>
               
-              <li> That the right person configured the thhtp server, to server the webapp
-              </li>
+              <li> That the right person configured the apache server, to serve
+              this webapp </li>
 
-              <li> Only the right person packaged everything together in a docker container that you can trust
-              </li> 
+              <li> Only the right person packaged everything together in a
+              docker container that you can trust </li> 
               
             </ul>
 
