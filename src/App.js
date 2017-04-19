@@ -11,7 +11,7 @@ class App extends Component {
           <div className="App-header">
             <Logo source="/logo.png"  />
             <LogoTable logos={["react", "eslint", "apache" ,"docker"]} />
-            <h2>This webapp is secured using with in-toto</h2>
+            <h2>This webapp is secured using in-toto</h2>
           </div>
           <div className="Benefits">
 
