@@ -6,40 +6,32 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <div className="Background"> 
+      <div className="Background">
         <div className="App">
           <div className="App-header">
             <Logo source="/logo.png"  />
-            <LogoTable logos={["react", "eslint", "apache" ,"docker"]} />
-            <h2>This webapp is secured using in-toto</h2>
+            <LogoTable logos={["git", "eslint",  "react" ,"docker"]} />
+            <h2>This web app is <i>in-toto</i> secured</h2>
           </div>
+          <div className="Metadata">
+            <img src="/metadata.png" />
+          </div>
+
           <div className="Benefits">
 
-            When integrating in-toto in this webapp, we made sure that:
-
-            <ul> 
-
-              <li> Only the right people coded this webapp, and
-              followed the right coding guidelines
-              </li>
-
-              <li> No intruder tampered with the code before it was added to the debian image
-              </li>
-              
-              <li> That the right person configured the apache server, to serve
-              this webapp </li>
-
-              <li> Only the right person packaged everything together in a
-              docker container that you can trust </li> 
-              
+            <ul>
+              <li>Created by authorized developers only</li>
+              <li>Followed the code guidelines</li>
+              <li>Built and packaged as defined</li>
+              <li>Guaranteed no tampering along the path</li>
             </ul>
 
           </div>
           <div className="seeMore">
-            Read more about in-toto at in-toto.io
+            Learn more at https://in-toto.io
           </div>
           <div className="copyright">
-            All logos are trademarks of their respective owners. This work is made possible by grants XXXX of NSF and bleh and blah.
+            This project is managed by Prof. Justin Cappos and other members of the Secure Systems Lab at NYU and the NJIT Cybersecurity Research Center.
           </div>
         </div>
       </div>

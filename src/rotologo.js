@@ -12,10 +12,8 @@ function LogoTable(props) {
     return  (
         <div>
 
-            {props.logos.map((logo, i) => 
-                    <span>
-                     <RotoLogo source={logo} /> 
-                    </span>
+            {props.logos.map((logo, i) =>
+                     <RotoLogo source={logo} key={i}/>
                 )}
 
         </div>
