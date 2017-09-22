@@ -10,6 +10,10 @@
   margin-bottom: 30px;
 }
 
+h2 {
+  color: #C00000;
+}
+
 .link{
   border-radius: 100px;
   border: 7px solid #191919;
@@ -21,6 +25,10 @@
 .RotoLogo {
   height: 100px;
   padding: 30px;
+}
+
+.link:not(:last-child) > .RotoLogo {
+  animation: App-logo-spin infinite 0.5s linear;
 }
 
 body { 

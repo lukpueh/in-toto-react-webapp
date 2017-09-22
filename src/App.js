@@ -11,22 +11,9 @@ class App extends Component {
           <div className="App-header">
             <Logo source="/logo.png"  />
             <LogoTable logos={["git", "eslint",  "react" ,"docker"]} />
-            <h2>This web app is <i>in-toto</i> secured</h2>
-          </div>
-          <div className="Metadata">
-            <img src="/metadata.png" />
+            <h2>This web app has been compromised!</h2>
           </div>
 
-          <div className="Benefits">
-
-            <ul>
-              <li>Created by authorized developers only</li>
-              <li>Followed the code guidelines</li>
-              <li>Built and packaged as defined</li>
-              <li>Guaranteed no tampering along the path</li>
-            </ul>
-
-          </div>
           <div className="seeMore">
             Learn more at https://in-toto.io
           </div>
