@@ -11,13 +11,13 @@ class App extends Component {
           <div className="App-header">
             <Logo source="/logo.png"  />
             <LogoTable logos={["git", "eslint",  "react" ,"docker"]} />
-            <h2>This web app is <i>in-toto</i> secured</h2>
           </div>
           <div className="Metadata">
             <img src="/metadata.png" />
           </div>
 
           <div className="Benefits">
+            <h2>This web app is <i>in-toto</i> secured</h2>
 
             <ul>
               <li>Created by authorized developers only</li>
