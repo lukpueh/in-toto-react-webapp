@@ -1,6 +1,13 @@
 {
   "parser": "babel-eslint",
   "extends": "google",
+  "rules" : {
+    "eqeqeq": "off",
+    "curly": "off",
+    "quotes": "off",
+    "require-jsdoc": "off",
+    "no-unused-vars": "off"
+  },
   "plugins": [
     "react"
   ]
