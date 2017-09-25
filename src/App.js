@@ -12,10 +12,6 @@ class App extends Component {
             <Logo source="/logo.png"/>
             <LogoTable logos={["git", "eslint", "react", "docker"]} />
           </div>
-          <div className="Metadata">
-            <img src="/metadata.png" />
-          </div>
-
           <div className="Benefits">
             <h2>This web app is <i>in-toto</i> secured</h2>
 
